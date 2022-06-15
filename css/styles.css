@@ -158,6 +158,10 @@ img {
   color: var(--accent-color);
 }
 
+.border {
+  border-bottom: 1px solid #ececec;
+}
+
 /*Hero*/
 
 .hero {
@@ -171,8 +175,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 200px 0;
+
   max-width: 1600px;
+  padding: 200px 0;
   margin: 0 auto;
 }
 
@@ -559,6 +564,8 @@ img {
 .filter-btn:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
@@ -581,6 +588,12 @@ img {
 .portfolio-link {
   text-decoration: none;
   font-style: normal;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-descr {
